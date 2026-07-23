@@ -30,7 +30,7 @@ from sksurv.ensemble import GradientBoostingSurvivalAnalysis
 from sksurv.util import Surv
 
 
-DATA_PATH = Path("CMMR71FL.dta")
+DATA_PATH = Path("dataset/CMMR71FL.dta")
 OUT_DIR = Path("model_artifacts")
 OUT_DIR.mkdir(exist_ok=True)
 
