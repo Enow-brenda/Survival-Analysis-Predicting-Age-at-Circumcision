@@ -702,7 +702,7 @@ with tab_predict:
         with st.form("profile"):
             # -- Demographics section --
             st.markdown(f'<div class="form-section">{T["section_demographics"]}</div>', unsafe_allow_html=True)
-            current_age = st.number_input(T["current_age"], 0, 95, 25)
+            current_age = st.number_input(T["current_age"], 15, 59, 25)
 
             def sel(key, label):
                 opts = OPTS[key]
